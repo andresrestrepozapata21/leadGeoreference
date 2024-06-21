@@ -80,16 +80,16 @@ async function mainInsertOpticLead(datos) {
                     ranking++;
                 }
             }
-            // Actualizo el lead
-            const queryUpdateLead = `
-                UPDATE \`lead\` SET preassigned_optic_process= 1 WHERE \`lead\`.id = UUID_TO_BIN('${idLead}')
-            `;
-            // Llamo el metodo para consultar la SQL
-            await queryAsync(queryUpdateLead);
         } else {
             // Cuando no se encuetran georeferencias
             console.log(`No geolocation data found for post code: ${postCode}`);
         }
+        // Actualizo el lead
+        const queryUpdateLead = `
+            UPDATE \`lead\` SET preassigned_optic_process= 1 WHERE \`lead\`.id = UUID_TO_BIN('${idLead}')
+        `;
+        // Llamo el metodo para consultar la SQL
+        await queryAsync(queryUpdateLead);
     }
 }
 
