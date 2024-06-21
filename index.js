@@ -29,7 +29,9 @@ async function getLeadsData() {
     SELECT BIN_TO_UUID(id) AS id,
            post_code 
     FROM \`lead\`
-    LIMIT 3
+    WHERE
+    preassigned_optic_process = 0
+    LIMIT 500
   `;
     // Llamo mi metodo para consumar la SQL
     return await queryAsync(queryLead);
@@ -68,8 +70,8 @@ async function mainInsertOpticLead(datos) {
                     const { id } = optic;
                     // SQL para insertar en la tabla intermedia el registro con los ID correspondientes
                     const queryInsertOpticsLead = `
-                    INSERT INTO optic_lead(id_lead_ol, id_optic_ol, ranking) VALUES (UUID_TO_BIN('${idLead}'),UUID_TO_BIN('${id}'), ${ranking})
-                `;
+                        INSERT INTO optic_lead(id_lead_ol, id_optic_ol, ranking) VALUES (UUID_TO_BIN('${idLead}'), UUID_TO_BIN('${id}'), ${ranking})
+                    `;
                     // Console log para control
                     console.log(queryInsertOpticsLead);
                     // Llamo el metodo para consultar la SQL
@@ -78,6 +80,12 @@ async function mainInsertOpticLead(datos) {
                     ranking++;
                 }
             }
+            // Actualizo el lead
+            const queryUpdateLead = `
+                UPDATE \`lead\` SET preassigned_optic_process= 1 WHERE \`lead\`.id = UUID_TO_BIN('${idLead}')
+            `;
+            // Llamo el metodo para consultar la SQL
+            await queryAsync(queryUpdateLead);
         } else {
             // Cuando no se encuetran georeferencias
             console.log(`No geolocation data found for post code: ${postCode}`);
