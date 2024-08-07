@@ -2,10 +2,11 @@
 import mysql from 'mysql';
 // Configuración de MySQL a BBDD testing
 const connection = mysql.createConnection({
-    host: 'test-for-test2.cmgjtomlonmm.eu-west-1.rds.amazonaws.com',
-    user: 'admin',
-    password: '4#Am5C)9y~C*;yfFxA',
-    database: 'test'
+    //host: 'flipo-sql-instance-1.cmgjtomlonmm.eu-west-1.rds.amazonaws.com',
+    host: '',
+    user: '',
+    password: '',
+    database: ''
 });
 
 // Promisificar las consultas
@@ -62,6 +63,16 @@ async function mainInsertOpticLead(datos) {
             const resultNearOptics = await getThreeNearOptics(lat, lng, 60);
             // Si efectivamente tengo opticas cercanas
             if (resultNearOptics.length > 0) {
+                // Ordena por distancia
+                resultNearOptics.sort((a, b) => {
+                    // Calcula la distancia desde las coordenadas dadas hasta cada óptica
+                    const a_distance = distance(a.latitude, a.longitude, lat, lng);
+                    a.distanceFromCords = a_distance;
+                    const b_distance = distance(b.latitude, b.longitude, lat, lng);
+                    b.distanceFromCords = b_distance;
+                    // Devuelve la diferencia entre las dos distancias para ordenar el array
+                    return a_distance - b_distance;
+                });
                 // Declaro variable para settear el ranking
                 let ranking = 1;
                 // Recorro cuales son las opticas para extraerles el ID
@@ -112,6 +123,32 @@ async function getThreeNearOptics(lat, lng, radius) {
     return await queryAsync(queryOptics);
 }
 
+/*=================================================================================================================================
+                                                    Methods Assistants
+=================================================================================================================================*/
+//Function to calculate distance between two points in km
+function distance(lat1, lon1, lat2, lon2) {
+    // p es una constante que representa la conversión de grados a radianes (Pi/180)
+    const p = 0.017453292519943295;
+
+    // c es un alias para la función coseno de Math
+    const c = Math.cos;
+
+    // a es la fórmula del semiverseno, que calcula la distancia entre dos puntos en la superficie de una esfera
+    const a =
+        0.5 -
+        c((lat2 - lat1) * p) / 2 +
+        (c(lat1 * p) * c(lat2 * p) * (1 - c((lon2 - lon1) * p))) / 2;
+
+    // La función devuelve la distancia en kilómetros entre los dos puntos
+    // Multiplica el resultado por 12742, que es el doble del radio medio de la Tierra (6371 km)
+    // para convertir la distancia de radianes a kilómetros
+    return 12742 * Math.asin(Math.sqrt(a));
+}
+
+/*=================================================================================================================================
+                                                    Methods Main
+=================================================================================================================================*/
 // Función principal para ejecutar el flujo completo
 async function main() {
     try {
