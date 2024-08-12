@@ -4,10 +4,10 @@ import cliProgress from 'cli-progress';
 
 // Configuración de MySQL a BBDD testing
 const connection = mysql.createConnection({
-    host: '',
-    user: '',
-    password: '',
-    database: ''
+    host: 'test-for-test2.cmgjtomlonmm.eu-west-1.rds.amazonaws.com',
+    user: 'admin',
+    password: '4#Am5C)9y~C*;yfFxA',
+    database: 'test'
 });
 
 // Promisificar las consultas
@@ -30,7 +30,7 @@ async function getLeadsData() {
     FROM \`lead\`
     WHERE
     preassigned_optic_process = 0
-    LIMIT 500
+    AND post_code LIKE '07%'
   `;
     return await queryAsync(queryLead);
 }
@@ -49,12 +49,13 @@ async function mainInsertOpticLead(datos) {
             SELECT * 
             FROM geolocation_cache
             WHERE searched_term = ?
+            AND id_country = 'ES'
         `;
         const results = await queryAsync(queryGeographicCache, [postCode]);
 
         if (results.length > 0) {
             const { lat, lng, id_country } = results[0];
-            console.log(`Lead ID: ${idLead}, Country: ${id_country}, Post Code: ${postCode}, Latitude: ${lat}, Longitude: ${lng}`);
+            //console.log(`Lead ID: ${idLead}, Country: ${id_country}, Post Code: ${postCode}, Latitude: ${lat}, Longitude: ${lng}`);
             const resultNearOptics = await getThreeNearOptics(lat, lng, 60);
 
             if (resultNearOptics.length > 0) {
@@ -72,13 +73,13 @@ async function mainInsertOpticLead(datos) {
                     const queryInsertOpticsLead = `
                         INSERT INTO optic_lead(id_lead_ol, id_optic_ol, ranking) VALUES (UUID_TO_BIN('${idLead}'), UUID_TO_BIN('${id}'), ${ranking})
                     `;
-                    console.log(queryInsertOpticsLead);
+                    //console.log(queryInsertOpticsLead);
                     await queryAsync(queryInsertOpticsLead);
                     ranking++;
                 }
             }
         } else {
-            console.log(`No geolocation data found for post code: ${postCode}`);
+            //console.log(`No geolocation data found for post code: ${postCode}`);
         }
 
         const queryUpdateLead = `
@@ -97,7 +98,7 @@ async function mainInsertOpticLead(datos) {
 // Función para obtener las 3 ópticas cercanas a la ubicación del lead
 async function getThreeNearOptics(lat, lng, radius) {
     const queryOptics = `
-        SELECT BIN_TO_UUID(optic.id) AS id
+        SELECT BIN_TO_UUID(optic.id) AS id, id_code, latitude, longitude
         FROM optic
         LEFT JOIN country ON optic.id_country = country.id
         WHERE
@@ -106,19 +107,22 @@ async function getThreeNearOptics(lat, lng, radius) {
             SIN(RADIANS(${lat})) * SIN(RADIANS(optic.latitude))
         ) < ${radius}
         AND optic.is_active = 1
+        AND optic.id_code IN (39, 233)
         LIMIT 3
     `;
     return await queryAsync(queryOptics);
 }
-
 // Función para calcular la distancia entre dos puntos en km
 function distance(lat1, lon1, lat2, lon2) {
+    console.log(lat1, lon1, lat2, lon2);
+
     const p = 0.017453292519943295;
     const c = Math.cos;
     const a =
         0.5 -
         c((lat2 - lat1) * p) / 2 +
         (c(lat1 * p) * c(lat2 * p) * (1 - c((lon2 - lon1) * p))) / 2;
+    console.log(12742 * Math.asin(Math.sqrt(a)));
     return 12742 * Math.asin(Math.sqrt(a));
 }
 
