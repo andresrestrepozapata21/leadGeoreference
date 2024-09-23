@@ -1,13 +1,16 @@
 // Importar módulos necesarios
 import mysql from 'mysql';
 import cliProgress from 'cli-progress';
-
+import logger from './utils/logger.js';
+import dotenv from 'dotenv';
+// Configuración de MySQL a BBDD testing
+dotenv.config();
 // Configuración de MySQL a BBDD testing
 const connection = mysql.createConnection({
-    host: '',
-    user: '',
-    password: '',
-    database: ''
+    host: process.env.HOST,
+    user: process.env.USER,
+    password: process.env.PASSWORD,
+    database: process.env.DATABASE
 });
 
 // Promisificar las consultas
@@ -26,10 +29,13 @@ function queryAsync(sql, values) {
 async function getLeadsData() {
     const queryLead = `
     SELECT BIN_TO_UUID(id) AS id,
-           post_code 
+           post_code,
+           id_country 
     FROM \`lead\`
     WHERE
-    preassigned_optic_process = 0
+    preassigned_optic_process = 0 AND
+    id_country IS NOT NULL
+    LIMIT 1
   `;
     return await queryAsync(queryLead);
 }
@@ -43,14 +49,15 @@ async function mainInsertOpticLead(datos) {
     for (const lead of datos) {
         const idLead = lead.id;
         const postCode = lead.post_code;
+        const idCountry = lead.id_country;
 
         const queryGeographicCache = `
             SELECT * 
             FROM geolocation_cache
-            WHERE searched_term = ?
+            WHERE searched_term = ? AND id_country = ?
         `;
-        const results = await queryAsync(queryGeographicCache, [postCode]);
-
+        const results = await queryAsync(queryGeographicCache, [postCode, idCountry]);
+        logger.info(`Lead ID: ${idLead}, Country: ${idCountry}, Post Code: ${postCode}, Latitude: ${results[0].lat}, Longitude: ${results[0].lng}`);
         if (results.length > 0) {
             const { lat, lng, id_country } = results[0];
             //console.log(`Lead ID: ${idLead}, Country: ${id_country}, Post Code: ${postCode}, Latitude: ${lat}, Longitude: ${lng}`);
@@ -73,6 +80,7 @@ async function mainInsertOpticLead(datos) {
                     `;
                     //console.log(queryInsertOpticsLead);
                     await queryAsync(queryInsertOpticsLead);
+                    logger.info(`Lead ID: ${idLead}, Optic ID: ${id}, Ranking: ${ranking}`);
                     ranking++;
                 }
             }
@@ -126,6 +134,7 @@ async function main() {
         connection.connect();
 
         const datos = await getLeadsData();
+        logger.info(`Número de leads a procesar: ${datos.length}`);
         await mainInsertOpticLead(datos);
 
     } catch (error) {
