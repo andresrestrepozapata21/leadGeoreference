@@ -42,3 +42,23 @@
 [2024-09-30T21:19:10.815Z] info Lead ID: 0000349f-bcd0-4b37-b6a6-6d4a2ba7c51c, Optic ID: 1d9216c2-6b06-4e6b-a608-4f9714b8ac6e, Ranking: 1
 [2024-09-30T21:23:28.664Z] info Número de leads a procesar: 1
 [2024-09-30T21:23:28.879Z] info Lead ID: 00008ddf-39ea-4042-8349-d03bd80a5660, Country: ES, Post Code: 46390, Latitude: 39.5325524, Longitude: -1.1448981
+info: Número de leads a procesar: 283355
+info: Lead ID: 13fbd13b-a8f8-4995-9cb9-e6e2e52e62ca, Country: ES, Post Code: 08243, Latitude: 41.7209792, Longitude: 1.8464648
+info: Lead ID: 13fbd13b-a8f8-4995-9cb9-e6e2e52e62ca, Optic ID: 137c0fb5-4574-4927-82d0-014def2631e0, Ranking: 1
+info: Lead ID: 13fbd13b-a8f8-4995-9cb9-e6e2e52e62ca, Optic ID: 0d37271e-d2b7-4018-bb9f-08a81300e698, Ranking: 2
+info: Lead ID: 13fbd13b-a8f8-4995-9cb9-e6e2e52e62ca, Optic ID: 06c93d8a-c850-49df-82ef-d7df7212f7e9, Ranking: 3
+info: Lead ID: 14fd6abf-5e7d-40b9-9944-3b6bb3d5f24b, Country: ES, Post Code: 47006, Latitude: 41.6394339, Longitude: -4.7419825
+info: Lead ID: 14fd6abf-5e7d-40b9-9944-3b6bb3d5f24b, Optic ID: 976e2987-2f35-4976-a5af-5b3228fa0bcb, Ranking: 1
+info: Número de leads a procesar: 283354
+info: Lead ID: 14fd6abf-5e7d-40b9-9944-3b6bb3d5f24b, Country: ES, Post Code: 47006, Latitude: 41.6394339, Longitude: -4.7419825
+info: Lead ID: 14fd6abf-5e7d-40b9-9944-3b6bb3d5f24b, Optic ID: 976e2987-2f35-4976-a5af-5b3228fa0bcb, Ranking: 1
+info: Lead ID: 14fd6abf-5e7d-40b9-9944-3b6bb3d5f24b, Optic ID: 18b4499a-a7df-451f-9c29-8b71ff9f1fa5, Ranking: 2
+info: Lead ID: 14fd6abf-5e7d-40b9-9944-3b6bb3d5f24b, Optic ID: f0a52fb1-a773-447a-81c9-47415751f6bc, Ranking: 3
+info: Lead ID: 14fd6cd7-c663-4eae-a0f5-9b0c0744abc3, Country: PT, Post Code: 6060-511, Latitude: 40.015419, Longitude: -7.3247594
+info: Lead ID: 14fd6cd7-c663-4eae-a0f5-9b0c0744abc3, Optic ID: 2b51dc70-b7fd-4042-847d-6de59a30d432, Ranking: 1
+info: Lead ID: 14fd7900-68c2-482c-b70f-904f765dea2a, Country: ES, Post Code: 08340, Latitude: 41.5041512, Longitude: 2.3838304
+info: Lead ID: 14fd7900-68c2-482c-b70f-904f765dea2a, Optic ID: 137c0fb5-4574-4927-82d0-014def2631e0, Ranking: 1
+info: Lead ID: 14fd7900-68c2-482c-b70f-904f765dea2a, Optic ID: 06c93d8a-c850-49df-82ef-d7df7212f7e9, Ranking: 2
+info: Lead ID: 14fd7900-68c2-482c-b70f-904f765dea2a, Optic ID: 0d37271e-d2b7-4018-bb9f-08a81300e698, Ranking: 3
+info: Lead ID: 14fd84a3-2f90-4ab5-bdcd-19ee2dba00ed, Country: IT, Post Code: 94010, Latitude: 37.72554909999999, Longitude: 14.5422225
+info: Lead ID: 14fd84a3-2f90-4ab5-bdcd-19ee2dba00ed, Optic ID: e4b412db-e2f2-4474-9503-1a09eede6323, Ranking: 1
