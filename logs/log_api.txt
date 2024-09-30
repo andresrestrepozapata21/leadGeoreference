@@ -5,3 +5,28 @@
 [2024-09-23T21:31:30.764Z] info Lead ID: 001c6280-7b08-4690-9b1f-a4da5c6bd3fc, Optic ID: 36fdf37a-366a-4d48-824b-e7b3e40639b2, Ranking: 1
 [2024-09-23T21:31:30.946Z] info Lead ID: 001c6280-7b08-4690-9b1f-a4da5c6bd3fc, Optic ID: 3a33e866-15d1-4c28-8618-df6ad42a1f43, Ranking: 2
 [2024-09-23T21:31:31.129Z] info Lead ID: 001c6280-7b08-4690-9b1f-a4da5c6bd3fc, Optic ID: 0eeb2068-ca95-44e1-b425-d1edbab8d4d1, Ranking: 3
+[2024-09-30T15:33:50.544Z] info Número de leads a procesar: 1
+[2024-09-30T15:35:32.779Z] info Número de leads a procesar: 1
+[2024-09-30T15:39:17.883Z] info Número de leads a procesar: 1
+[2024-09-30T15:43:15.429Z] info Número de leads a procesar: 1
+[2024-09-30T15:43:44.634Z] info Número de leads a procesar: 1
+[2024-09-30T15:48:40.645Z] info Número de leads a procesar: 1
+[2024-09-30T15:49:03.474Z] info Número de leads a procesar: 1
+[2024-09-30T15:56:31.128Z] info Número de leads a procesar: 1
+[2024-09-30T16:31:20.797Z] info Número de leads a procesar: 10
+[2024-09-30T16:37:06.482Z] info Número de leads a procesar: 10
+[2024-09-30T16:37:06.487Z] info No country found
+[2024-09-30T16:37:07.727Z] info No country found
+[2024-09-30T16:37:34.485Z] info Número de leads a procesar: 10
+[2024-09-30T16:37:43.606Z] info Número de leads a procesar: 100
+[2024-09-30T16:39:01.596Z] info Número de leads a procesar: 100
+[2024-09-30T16:39:38.068Z] info Número de leads a procesar: 100
+[2024-09-30T16:42:35.806Z] info Número de leads a procesar: 1000
+[2024-09-30T16:53:43.847Z] info Número de leads a procesar: 1000
+[2024-09-30T16:55:09.235Z] info Número de leads a procesar: 10000
+[2024-09-30T17:24:48.821Z] info Número de leads a procesar: 10000
+[2024-09-30T17:26:31.304Z] info Número de leads a procesar: 100
+[2024-09-30T17:39:09.012Z] info Número de leads a procesar: 10000
+[2024-09-30T17:39:39.820Z] info Número de leads a procesar: 10000
+[2024-09-30T17:41:02.493Z] info Número de leads a procesar: 10000
+[2024-09-30T17:46:38.093Z] info Número de leads a procesar: 100000
