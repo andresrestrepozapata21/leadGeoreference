@@ -32,3 +32,13 @@
 [2024-09-30T17:46:38.093Z] info Número de leads a procesar: 100000
 [2024-09-30T20:17:11.702Z] info Número de leads a procesar: 10
 [2024-09-30T20:34:37.992Z] info Número de leads a procesar: 10
+[2024-09-30T21:18:15.412Z] info Número de leads a procesar: 1
+[2024-09-30T21:18:15.625Z] info Lead ID: 00000a15-10bf-4ae8-9247-cc8d63f04148, Country: PT, Post Code: 2420, Latitude: 39.7665653, Longitude: -8.715083100000001
+[2024-09-30T21:18:15.982Z] info Lead ID: 00000a15-10bf-4ae8-9247-cc8d63f04148, Optic ID: 7ad0dd00-ef45-4b31-9815-8e3dd605c78c, Ranking: 1
+[2024-09-30T21:18:16.162Z] info Lead ID: 00000a15-10bf-4ae8-9247-cc8d63f04148, Optic ID: 276e618f-a181-4cf0-9bee-f38dc23fbba6, Ranking: 2
+[2024-09-30T21:18:16.347Z] info Lead ID: 00000a15-10bf-4ae8-9247-cc8d63f04148, Optic ID: 54391132-aec5-45af-9eb6-281156d970c8, Ranking: 3
+[2024-09-30T21:19:10.239Z] info Número de leads a procesar: 1
+[2024-09-30T21:19:10.451Z] info Lead ID: 0000349f-bcd0-4b37-b6a6-6d4a2ba7c51c, Country: IT, Post Code: 33017, Latitude: 46.22233079999999, Longitude: 13.2173934
+[2024-09-30T21:19:10.815Z] info Lead ID: 0000349f-bcd0-4b37-b6a6-6d4a2ba7c51c, Optic ID: 1d9216c2-6b06-4e6b-a608-4f9714b8ac6e, Ranking: 1
+[2024-09-30T21:23:28.664Z] info Número de leads a procesar: 1
+[2024-09-30T21:23:28.879Z] info Lead ID: 00008ddf-39ea-4042-8349-d03bd80a5660, Country: ES, Post Code: 46390, Latitude: 39.5325524, Longitude: -1.1448981

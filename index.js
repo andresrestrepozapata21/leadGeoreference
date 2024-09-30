@@ -56,10 +56,9 @@ async function mainInsertOpticLead(datos) {
             WHERE searched_term = ? AND id_country = ?
         `;
         const results = await queryAsync(queryGeographicCache, [postCode, idCountry]);
-        logger.info(`Lead ID: ${idLead}, Country: ${idCountry}, Post Code: ${postCode}, Latitude: ${results[0].lat}, Longitude: ${results[0].lng}`);
         if (results.length > 0) {
+            logger.info(`Lead ID: ${idLead}, Country: ${idCountry}, Post Code: ${postCode}, Latitude: ${results[0].lat}, Longitude: ${results[0].lng}`);
             const { lat, lng, id_country } = results[0];
-            //console.log(`Lead ID: ${idLead}, Country: ${id_country}, Post Code: ${postCode}, Latitude: ${lat}, Longitude: ${lng}`);
             const resultNearOptics = await getThreeNearOptics(lat, lng, 60);
 
             if (resultNearOptics.length > 0) {
