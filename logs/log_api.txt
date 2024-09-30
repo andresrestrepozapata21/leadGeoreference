@@ -30,3 +30,5 @@
 [2024-09-30T17:39:39.820Z] info Número de leads a procesar: 10000
 [2024-09-30T17:41:02.493Z] info Número de leads a procesar: 10000
 [2024-09-30T17:46:38.093Z] info Número de leads a procesar: 100000
+[2024-09-30T20:17:11.702Z] info Número de leads a procesar: 10
+[2024-09-30T20:34:37.992Z] info Número de leads a procesar: 10

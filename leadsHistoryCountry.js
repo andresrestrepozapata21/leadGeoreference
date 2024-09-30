@@ -7,10 +7,10 @@ import dotenv from 'dotenv';
 dotenv.config();
 // Configuración de MySQL a BBDD testing
 const connection = mysql.createConnection({
-    host: process.env.HOST,
-    user: process.env.USER,
-    password: process.env.PASSWORD,
-    database: process.env.DATABASE
+    host: 'flipo-sql-instance-1.cmgjtomlonmm.eu-west-1.rds.amazonaws.com',
+    user: 'admin',
+    password: '4#Am5C)9y~C*;yfFxA',
+    database: 'test'
 });
 
 // Promisificar las consultas
