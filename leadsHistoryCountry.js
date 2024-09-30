@@ -1,5 +1,5 @@
 // Importar módulos necesarios
-import mysql from 'mysql';
+import mysql from 'mysql2';
 import cliProgress from 'cli-progress';
 import logger from './utils/logger.js';
 import dotenv from 'dotenv';
