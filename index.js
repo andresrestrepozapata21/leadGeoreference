@@ -35,7 +35,6 @@ async function getLeadsData() {
     WHERE
     preassigned_optic_process = 0 AND
     id_country IS NOT NULL
-    LIMIT 1
   `;
     return await queryAsync(queryLead);
 }
