@@ -62,3 +62,111 @@ info: Lead ID: 14fd7900-68c2-482c-b70f-904f765dea2a, Optic ID: 06c93d8a-c850-49d
 info: Lead ID: 14fd7900-68c2-482c-b70f-904f765dea2a, Optic ID: 0d37271e-d2b7-4018-bb9f-08a81300e698, Ranking: 3
 info: Lead ID: 14fd84a3-2f90-4ab5-bdcd-19ee2dba00ed, Country: IT, Post Code: 94010, Latitude: 37.72554909999999, Longitude: 14.5422225
 info: Lead ID: 14fd84a3-2f90-4ab5-bdcd-19ee2dba00ed, Optic ID: e4b412db-e2f2-4474-9503-1a09eede6323, Ranking: 1
+info: Número de leads a procesar: 283350
+info: Lead ID: 14fda1be-7dd6-4b39-a10f-dce0d18ba10e, Country: ES, Post Code: 43830, Latitude: 41.1467533, Longitude: 1.3999969
+info: Lead ID: 14fda1be-7dd6-4b39-a10f-dce0d18ba10e, Optic ID: 2e0fe5ac-efe4-4f96-8f5d-aa9d4f432a44, Ranking: 1
+info: Lead ID: 14fda1be-7dd6-4b39-a10f-dce0d18ba10e, Optic ID: 566c412d-872a-498c-b41d-1ef179781080, Ranking: 2
+info: Lead ID: 14fda1be-7dd6-4b39-a10f-dce0d18ba10e, Optic ID: 189826d4-c785-431a-8610-1d96c8480b5b, Ranking: 3
+info: Lead ID: 14fdbd0b-7e89-4cf3-b15a-d6c5ebac5eef, Country: ES, Post Code: 28001, Latitude: 40.426175, Longitude: -3.685144
+info: Lead ID: 14fdbd0b-7e89-4cf3-b15a-d6c5ebac5eef, Optic ID: 35c22ab5-3736-4a1c-ba2f-37e708fadea8, Ranking: 1
+info: Lead ID: 14fdbd0b-7e89-4cf3-b15a-d6c5ebac5eef, Optic ID: 1863df86-a317-4f86-b10e-bb9b5457dce8, Ranking: 2
+info: Lead ID: 14fdbd0b-7e89-4cf3-b15a-d6c5ebac5eef, Optic ID: 3c7fe108-53db-486b-9e41-5a53e1a56294, Ranking: 3
+info: Lead ID: 14fdbf6d-9233-4730-9e46-2198edc55d97, Country: IT, Post Code: 57023, Latitude: 43.3176381, Longitude: 10.4958678
+info: Lead ID: 14fdbf6d-9233-4730-9e46-2198edc55d97, Optic ID: a77d0a0b-24f3-4ba6-a170-25629cb3ffe4, Ranking: 1
+info: Número de leads a procesar: 1
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Country: ES, Post Code: 08030, Latitude: 41.4378689, Longitude: 2.196618
+info: Número de leads a procesar: 1
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Country: ES, Post Code: 08030, Latitude: 41.4378689, Longitude: 2.196618
+info: Número de leads a procesar: 1
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Country: ES, Post Code: 08030, Latitude: 41.4378689, Longitude: 2.196618
+info: Número de leads a procesar: 1
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Country: ES, Post Code: 08030, Latitude: 41.4378689, Longitude: 2.196618
+info: Número de leads a procesar: 1
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Country: ES, Post Code: 08030, Latitude: 41.4378689, Longitude: 2.196618
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 2913629b-ea83-4d29-a577-7566c211830b, Ranking: 1
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 9458e491-91fb-4704-ab7d-1e457edc51ba, Ranking: 2
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: ca65807f-b292-4e82-a4d5-e1607cec37f1, Ranking: 3
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: c0f20619-eb53-4699-83b3-4eb6beab3c18, Ranking: 4
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: a4c2012d-1e8e-4f32-9606-70216c752b39, Ranking: 5
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 9b8ed8de-4f87-4b25-b304-536b9b3d99f8, Ranking: 6
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: f835645b-7cfb-4d1e-af94-254ce28937fd, Ranking: 7
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 589d4acb-04fd-47e8-9562-f9558dac2575, Ranking: 8
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 6615302e-881b-4163-a5a1-f80f01d61d8e, Ranking: 9
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 0d37271e-d2b7-4018-bb9f-08a81300e698, Ranking: 10
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: c1925ff2-e8c3-4a5b-aa53-6068efb4f8b8, Ranking: 11
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: a970d375-afcc-4e84-8b1d-7e833ae3a48a, Ranking: 12
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 9dc12fc3-4f5d-429d-be37-0f1ebc9c9870, Ranking: 13
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 5ea7805b-243f-417a-a8fe-453ca266e407, Ranking: 14
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 8d6bc543-29d4-4280-941f-0ff53cefcb9a, Ranking: 15
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 8464975c-b646-467a-a2dc-3b62b1b5d073, Ranking: 16
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 7f2fa80b-5549-417b-88ee-4791fb18c435, Ranking: 17
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 43cec800-3e35-4643-a8cc-24d637c784da, Ranking: 18
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 47a9f29d-857b-4be9-82d0-30e238240be9, Ranking: 19
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 53fc3cfe-68ef-4cf1-859e-aa713ac6ead4, Ranking: 20
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 4badee33-ffe4-47fd-9c39-98ca7a338f3d, Ranking: 21
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 4694db11-fc96-421a-b20a-1a1e947e380f, Ranking: 22
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 863ec866-2890-4c3f-b7a3-071f6cfafa9c, Ranking: 23
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 79d13d45-c901-47c6-934b-f4e65717f304, Ranking: 24
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: e9facbfd-50ec-48c6-80a9-ae50b7ba4c88, Ranking: 25
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 87c99f3e-1ad9-43ae-b49d-c4271f81b0a7, Ranking: 26
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 7ae60e74-50b3-46bc-8ff1-cb659df86b38, Ranking: 27
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: be6c0e9c-bcfc-4b59-8f2a-a15354836334, Ranking: 28
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 137c0fb5-4574-4927-82d0-014def2631e0, Ranking: 29
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 86074943-7d78-485b-8835-bd3ca9b1afe0, Ranking: 30
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 189826d4-c785-431a-8610-1d96c8480b5b, Ranking: 31
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 6409926a-5742-4c1f-937a-f79ea4b52daf, Ranking: 32
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: ce965a4c-ef86-44b5-bb72-c79797475723, Ranking: 33
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: cd33235a-4126-470d-bd70-41200e4b032d, Ranking: 34
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: b5a1b2f5-1a43-40dd-8157-756c69a958ae, Ranking: 35
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 566c412d-872a-498c-b41d-1ef179781080, Ranking: 36
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: e0161c2c-4e99-44b0-9766-adcee21a1797, Ranking: 37
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 86bc744d-e594-4976-9765-2ae70e60e3a0, Ranking: 38
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: e36f06a1-0a24-485b-b310-ecf51eec480c, Ranking: 39
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: b511db82-81f8-49c8-8cb4-639f1a9e7f10, Ranking: 40
+info: Número de leads a procesar: 1
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Country: ES, Post Code: 08030, Latitude: 41.4378689, Longitude: 2.196618
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 2913629b-ea83-4d29-a577-7566c211830b, Ranking: 1
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 9458e491-91fb-4704-ab7d-1e457edc51ba, Ranking: 2
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: ca65807f-b292-4e82-a4d5-e1607cec37f1, Ranking: 3
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: c0f20619-eb53-4699-83b3-4eb6beab3c18, Ranking: 4
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: a4c2012d-1e8e-4f32-9606-70216c752b39, Ranking: 5
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 9b8ed8de-4f87-4b25-b304-536b9b3d99f8, Ranking: 6
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: f835645b-7cfb-4d1e-af94-254ce28937fd, Ranking: 7
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 589d4acb-04fd-47e8-9562-f9558dac2575, Ranking: 8
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 6615302e-881b-4163-a5a1-f80f01d61d8e, Ranking: 9
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 0d37271e-d2b7-4018-bb9f-08a81300e698, Ranking: 10
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: c1925ff2-e8c3-4a5b-aa53-6068efb4f8b8, Ranking: 11
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: a970d375-afcc-4e84-8b1d-7e833ae3a48a, Ranking: 12
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 9dc12fc3-4f5d-429d-be37-0f1ebc9c9870, Ranking: 13
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 5ea7805b-243f-417a-a8fe-453ca266e407, Ranking: 14
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 8d6bc543-29d4-4280-941f-0ff53cefcb9a, Ranking: 15
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 8464975c-b646-467a-a2dc-3b62b1b5d073, Ranking: 16
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 7f2fa80b-5549-417b-88ee-4791fb18c435, Ranking: 17
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 43cec800-3e35-4643-a8cc-24d637c784da, Ranking: 18
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 47a9f29d-857b-4be9-82d0-30e238240be9, Ranking: 19
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 53fc3cfe-68ef-4cf1-859e-aa713ac6ead4, Ranking: 20
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 4badee33-ffe4-47fd-9c39-98ca7a338f3d, Ranking: 21
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 4694db11-fc96-421a-b20a-1a1e947e380f, Ranking: 22
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 863ec866-2890-4c3f-b7a3-071f6cfafa9c, Ranking: 23
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 79d13d45-c901-47c6-934b-f4e65717f304, Ranking: 24
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: e9facbfd-50ec-48c6-80a9-ae50b7ba4c88, Ranking: 25
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 87c99f3e-1ad9-43ae-b49d-c4271f81b0a7, Ranking: 26
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 7ae60e74-50b3-46bc-8ff1-cb659df86b38, Ranking: 27
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: be6c0e9c-bcfc-4b59-8f2a-a15354836334, Ranking: 28
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 137c0fb5-4574-4927-82d0-014def2631e0, Ranking: 29
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 86074943-7d78-485b-8835-bd3ca9b1afe0, Ranking: 30
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 189826d4-c785-431a-8610-1d96c8480b5b, Ranking: 31
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 6409926a-5742-4c1f-937a-f79ea4b52daf, Ranking: 32
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: ce965a4c-ef86-44b5-bb72-c79797475723, Ranking: 33
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: cd33235a-4126-470d-bd70-41200e4b032d, Ranking: 34
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: b5a1b2f5-1a43-40dd-8157-756c69a958ae, Ranking: 35
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 566c412d-872a-498c-b41d-1ef179781080, Ranking: 36
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: e0161c2c-4e99-44b0-9766-adcee21a1797, Ranking: 37
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 86bc744d-e594-4976-9765-2ae70e60e3a0, Ranking: 38
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: e36f06a1-0a24-485b-b310-ecf51eec480c, Ranking: 39
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: b511db82-81f8-49c8-8cb4-639f1a9e7f10, Ranking: 40
+info: Número de leads a procesar: 1
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Country: ES, Post Code: 08030, Latitude: 41.4378689, Longitude: 2.196618
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 2913629b-ea83-4d29-a577-7566c211830b, Ranking: 1
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 9458e491-91fb-4704-ab7d-1e457edc51ba, Ranking: 2
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: ca65807f-b292-4e82-a4d5-e1607cec37f1, Ranking: 3

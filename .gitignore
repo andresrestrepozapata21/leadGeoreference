@@ -1,5 +1,4 @@
 # Node modules
 node_modules/
-logs/
-log_api.txt
-git rm --cached log_api.txt
+logs
+*.txt

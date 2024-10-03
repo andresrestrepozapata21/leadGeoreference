@@ -58,10 +58,10 @@ async function mainInsertOpticLead(datos) {
         const results = await queryAsync(queryGeographicCache, [postCode, idCountry]);
         if (results.length > 0) {
             logger.info(`Lead ID: ${idLead}, Country: ${idCountry}, Post Code: ${postCode}, Latitude: ${results[0].lat}, Longitude: ${results[0].lng}`);
-            const { lat, lng, id_country } = results[0];
+            const { lat, lng } = results[0];
             const resultNearOptics = await getThreeNearOptics(lat, lng, 60);
-
             if (resultNearOptics.length > 0) {
+                let arrayOrdered = [];
                 resultNearOptics.sort((a, b) => {
                     const a_distance = distance(a.latitude, a.longitude, lat, lng);
                     a.distanceFromCords = a_distance;
@@ -69,9 +69,12 @@ async function mainInsertOpticLead(datos) {
                     b.distanceFromCords = b_distance;
                     return a_distance - b_distance;
                 });
-
+                // filtor y ordeno los 3 primeros elementos
+                arrayOrdered.push(resultNearOptics[0]);
+                arrayOrdered.push(resultNearOptics[1]);
+                arrayOrdered.push(resultNearOptics[2]);
                 let ranking = 1;
-                for (const optic of resultNearOptics) {
+                for (const optic of arrayOrdered) {
                     const { id } = optic;
                     const queryInsertOpticsLead = `
                         INSERT INTO optic_lead(id_lead_ol, id_optic_ol, ranking) VALUES (UUID_TO_BIN('${idLead}'), UUID_TO_BIN('${id}'), ${ranking})
@@ -111,7 +114,6 @@ async function getThreeNearOptics(lat, lng, radius) {
             SIN(RADIANS(${lat})) * SIN(RADIANS(optic.latitude))
         ) < ${radius}
         AND optic.is_active = 1
-        LIMIT 3
     `;
     return await queryAsync(queryOptics);
 }
