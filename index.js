@@ -69,7 +69,6 @@ async function mainInsertOpticLead(datos) {
                     b.distanceFromCords = b_distance;
                     return a_distance - b_distance;
                 });
-                // filtor y ordeno los 3 primeros elementos
                 arrayOrdered.push(resultNearOptics[0]);
                 arrayOrdered.push(resultNearOptics[1]);
                 arrayOrdered.push(resultNearOptics[2]);
