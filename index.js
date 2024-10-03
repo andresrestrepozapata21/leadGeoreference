@@ -119,7 +119,6 @@ async function getThreeNearOptics(lat, lng, radius) {
             SIN(RADIANS(${lat})) * SIN(RADIANS(optic.latitude))
         ) < ${radius}
         AND optic.is_active = 1
-        LIMIT 3
     `;
     return await queryAsync(queryOptics);
 }

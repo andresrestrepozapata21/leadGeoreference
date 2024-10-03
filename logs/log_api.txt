@@ -311,3 +311,34 @@ info: Lead ID: 0012bca5-026e-4bae-b61d-454896e5c81f, Optic ID: 7935cd0b-f9e2-4fc
 info: Lead ID: 0012d292-d026-4f6c-b166-33c01f539d2a, Country: ES, Post Code: 13500, Latitude: 38.691151, Longitude: -4.1053307
 info: Lead ID: 0012d292-d026-4f6c-b166-33c01f539d2a, Optic ID: 10ced591-b141-49f0-b900-e693d9957b68, Ranking: 1
 info: Lead ID: 001300de-c4bc-47db-8d16-26d20188ca64, Country: ES, Post Code: 36715, Latitude: 42.059725, Longitude: -8.6573084
+info: Número de leads a procesar: 0
+info: Número de leads a procesar: 1
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Country: ES, Post Code: 08030, Latitude: 41.4378689, Longitude: 2.196618
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 0d37271e-d2b7-4018-bb9f-08a81300e698, Ranking: 1
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 137c0fb5-4574-4927-82d0-014def2631e0, Ranking: 2
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 189826d4-c785-431a-8610-1d96c8480b5b, Ranking: 3
+info: Número de leads a procesar: 1
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Country: ES, Post Code: 08030, Latitude: 41.4378689, Longitude: 2.196618
+info: Número de leads a procesar: 1
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Country: ES, Post Code: 08030, Latitude: 41.4378689, Longitude: 2.196618
+info: Número de leads a procesar: 1
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Country: ES, Post Code: 08030, Latitude: 41.4378689, Longitude: 2.196618
+info: Número de leads a procesar: 1
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Country: ES, Post Code: 08030, Latitude: 41.4378689, Longitude: 2.196618
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 2913629b-ea83-4d29-a577-7566c211830b, Ranking: 1
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: 9458e491-91fb-4704-ab7d-1e457edc51ba, Ranking: 2
+info: Lead ID: 04d57b7e-dc3f-4344-ba12-b459b516ac7d, Optic ID: ca65807f-b292-4e82-a4d5-e1607cec37f1, Ranking: 3
+info: Número de leads a procesar: 312984
+info: Lead ID: 00000a15-10bf-4ae8-9247-cc8d63f04148, Country: PT, Post Code: 2420, Latitude: 39.7665653, Longitude: -8.715083100000001
+info: Lead ID: 00000a15-10bf-4ae8-9247-cc8d63f04148, Optic ID: c93e32e0-f9e5-489a-a08e-7d4cf7c91941, Ranking: 1
+info: Lead ID: 00000a15-10bf-4ae8-9247-cc8d63f04148, Optic ID: 1fd53dca-e859-46c2-a2a5-f6462fef46fa, Ranking: 2
+info: Lead ID: 00000a15-10bf-4ae8-9247-cc8d63f04148, Optic ID: 7ad0dd00-ef45-4b31-9815-8e3dd605c78c, Ranking: 3
+info: Lead ID: 0000349f-bcd0-4b37-b6a6-6d4a2ba7c51c, Country: IT, Post Code: 33017, Latitude: 46.22233079999999, Longitude: 13.2173934
+info: Lead ID: 0000349f-bcd0-4b37-b6a6-6d4a2ba7c51c, Optic ID: 1d9216c2-6b06-4e6b-a608-4f9714b8ac6e, Ranking: 1
+info: Lead ID: 00008ddf-39ea-4042-8349-d03bd80a5660, Country: ES, Post Code: 46390, Latitude: 39.5325524, Longitude: -1.1448981
+info: Lead ID: 000092c8-c7d7-4c4f-a923-ce7168353565, Country: IT, Post Code: 58045, Latitude: 43.02259230000001, Longitude: 11.2750531
+info: Lead ID: 000092c8-c7d7-4c4f-a923-ce7168353565, Optic ID: 1a0d1a4c-3043-4536-9894-40a50dec9975, Ranking: 1
+info: Lead ID: 0000bf4e-1bf5-45f8-980b-b5e65fe3b50d, Country: IT, Post Code: 35129, Latitude: 45.4266466, Longitude: 11.9259985
+info: Lead ID: 0000bf4e-1bf5-45f8-980b-b5e65fe3b50d, Optic ID: 64e81ca3-65d3-46ac-9dd7-5cdfdd47032d, Ranking: 1
+info: Lead ID: 0000bf4e-1bf5-45f8-980b-b5e65fe3b50d, Optic ID: b3bbfb77-2fc1-4528-8e90-c12df9a4fe61, Ranking: 2
+info: Lead ID: 0000f647-0b7c-402e-b4eb-688fbdf1806b, Country: ES, Post Code: 03517, Latitude: 38.6736172, Longitude: -0.2807868
